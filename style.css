@@ -1,0 +1,87 @@
+@font-face {
+    font-family: D-DIN-Bold;
+    src: url(d-din\D-DIN-Bold.otf);
+}
+body{
+    font-family: D-DIN-Bold, Arial, Verdana, sans-serif;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+}
+.nav1{
+    display: flex;
+    gap:15px ;
+    justify-content: flex-start;
+}
+.nav2{
+    display: flex;
+    gap: 15px;
+    justify-content:flex-end ;
+    font-size: 15px;
+    padding: 0 13px;
+    right: 0px;
+    top: 37px;
+}
+.nav2 a{
+    margin: 0 5px;
+}
+.nav2 button{
+    color: white;
+    background-color: transparent;
+    border: solid transparent;
+    rotate: 90deg;
+    margin-right: 5px;
+    padding-right: 6px;
+}
+svg{
+    fill: white;
+    margin-left: 3px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bolder;
+    font: D-DIN-BOLD ;
+}
+header a:hover{
+    color: white;
+    text-decoration: underline;
+    transition-delay: 0.75s;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+    padding-left: 5px;
+    max-width: 1400px;
+}
+header svg{
+    width: 200px;
+    height: auto;
+}
+.first_c a{
+    color: white;
+    text-decoration: none;
+}
+/* .first video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height:auto ;
+    object-fit: cover;
+    z-index: -1; 
+} */
+.second{
+    background-image: url(2wCEAAkGBw8QEBASEBAPFRUVFQ8QFRAPDw8QEBUVFxUWFxUVFRYYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OFQ0PDysZFRkrKzcrKysrKysrKysrKystKy0tLS0rNystLSsrNys3NystNy0tKy0rLS03Nys3KystK);
+    width: 100vw;
+    height: 100vh;
+}
